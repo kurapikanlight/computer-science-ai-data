@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 ![Org](https://img.shields.io/badge/org-Research--Methodology--Hub-black)
 
-Hosted by the [Research-Methodology-Hub](https://github.com/Research-Methodology-Hub).
+This guide was built to make rigorous, reproducible research accessible to everyone. 🔬 by Mohamed El hajji and the community.
 
 > ⚠️ **Early stage.** The methodology guide content is being written. The roadmap below describes where this project is headed.
 
@@ -50,10 +50,20 @@ The methodology guide walks through the full research lifecycle:
 .
 ├── README.md          # You are here
 ├── LICENSE            # Apache 2.0
-└── doc/               # Documentation & contribution notes
+├── doc/               # Documentation & contribution notes
+└── web/               # Frontend app — React + Vite + TypeScript
 ```
 
-> Guide content, templates, and folders will be added as the project grows.
+> Guide content, templates, and a future `api/` (backend & AI) will be added as the project grows.
+
+### Running the web app
+
+```bash
+cd web
+npm install
+npm run dev      # start the dev server
+npm run build    # production build
+```
 
 ---
 
